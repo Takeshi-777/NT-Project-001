@@ -13,23 +13,23 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
+  - Stage
+  - Wall
+  - 
+  - 
+  - 
+  - Player
+  - Player_JudgeCollision
   - 
   - 
   - 
   - 
   - 
   - 
+  - Goal
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Just
+  - Guide
   - 
   - 
   - 
