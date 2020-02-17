@@ -958,6 +958,8 @@
      <Compile Include="Assets\uScript\uScriptRuntime\Nodes\Events\uScript_Visibility.cs" />
      <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\chr_image_cont.cs" />
      <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\chr_image_cont_Component.cs" />
+     <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\col_ent_anim_trigger.cs" />
+     <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\col_ent_anim_trigger_Component.cs" />
      <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\colision2d_sendsignal.cs" />
      <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\colision2d_sendsignal_Component.cs" />
      <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\Debug_fps.cs" />
@@ -980,6 +982,8 @@
      <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\Home_Button_Component.cs" />
      <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\Home_SceneChange.cs" />
      <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\Home_SceneChange_Component.cs" />
+     <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\Item_Paream.cs" />
+     <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\Item_Paream_Component.cs" />
      <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\Jump_Action.cs" />
      <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\Jump_Action_Component.cs" />
      <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\Jump_Judge_Col.cs" />
@@ -998,6 +1002,8 @@
      <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\Score_param_Component.cs" />
      <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\Stage_Param.cs" />
      <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\Stage_Param_Component.cs" />
+     <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\Stage_Score_Recorder.cs" />
+     <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\Stage_Score_Recorder_Component.cs" />
      <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\Stgae_controle.cs" />
      <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\Stgae_controle_Component.cs" />
      <Compile Include="Assets\uScriptProjectFiles\uScripts\_GeneratedCode\Title_Sys.cs" />

@@ -5,14 +5,15 @@ using System.Collections.Generic;
 
 // This is the component script that you should assign to GameObjects to use this graph on them. Use the uScript/Graphs section of Unity's "Component" menu to assign this graph to a selected GameObject.
 
-[AddComponentMenu("uScript/Graphs/Score_param")]
-public class Score_param_Component : uScriptCode
+[AddComponentMenu("uScript/Graphs/Item_Paream")]
+public class Item_Paream_Component : uScriptCode
 {
    #pragma warning disable 414
-   public Score_param ExposedVariables = new Score_param( ); 
+   public Item_Paream ExposedVariables = new Item_Paream( ); 
    #pragma warning restore 414
    
-   public UnityEngine.GameObject Score_txt_obj { get { return ExposedVariables.Score_txt_obj; } set { ExposedVariables.Score_txt_obj = value; } } 
+   public System.Int32 _Score { get { return ExposedVariables._Score; } set { ExposedVariables._Score = value; } } 
+   public System.Int32 _ID { get { return ExposedVariables._ID; } set { ExposedVariables._ID = value; } } 
    
    void Awake( )
    {
@@ -51,11 +52,6 @@ public class Score_param_Component : uScriptCode
    #if UNITY_EDITOR
       void OnDrawGizmos( )
       {
-         {
-            GameObject gameObject;
-            gameObject = GameObject.Find( "Guide_cam" ); 
-            if ( null != gameObject ) Gizmos.DrawIcon(gameObject.transform.position, "uscript_gizmo_variables.png");
-         }
       }
    #endif
 }

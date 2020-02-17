@@ -5,14 +5,18 @@ using System.Collections.Generic;
 
 // This is the component script that you should assign to GameObjects to use this graph on them. Use the uScript/Graphs section of Unity's "Component" menu to assign this graph to a selected GameObject.
 
-[AddComponentMenu("uScript/Graphs/Score_param")]
-public class Score_param_Component : uScriptCode
+[AddComponentMenu("uScript/Graphs/Stage_Score_Recorder")]
+public class Stage_Score_Recorder_Component : uScriptCode
 {
    #pragma warning disable 414
-   public Score_param ExposedVariables = new Score_param( ); 
+   public Stage_Score_Recorder ExposedVariables = new Stage_Score_Recorder( ); 
    #pragma warning restore 414
    
-   public UnityEngine.GameObject Score_txt_obj { get { return ExposedVariables.Score_txt_obj; } set { ExposedVariables.Score_txt_obj = value; } } 
+   public System.Int32 ID_001_Count { get { return ExposedVariables.ID_001_Count; } set { ExposedVariables.ID_001_Count = value; } } 
+   public System.Int32 ID_002_Count { get { return ExposedVariables.ID_002_Count; } set { ExposedVariables.ID_002_Count = value; } } 
+   public System.Int32 ID_003_Count { get { return ExposedVariables.ID_003_Count; } set { ExposedVariables.ID_003_Count = value; } } 
+   public System.Int32 ID_004_Count { get { return ExposedVariables.ID_004_Count; } set { ExposedVariables.ID_004_Count = value; } } 
+   public System.Int32 ID_005_Count { get { return ExposedVariables.ID_005_Count; } set { ExposedVariables.ID_005_Count = value; } } 
    
    void Awake( )
    {
@@ -51,11 +55,6 @@ public class Score_param_Component : uScriptCode
    #if UNITY_EDITOR
       void OnDrawGizmos( )
       {
-         {
-            GameObject gameObject;
-            gameObject = GameObject.Find( "Guide_cam" ); 
-            if ( null != gameObject ) Gizmos.DrawIcon(gameObject.transform.position, "uscript_gizmo_variables.png");
-         }
       }
    #endif
 }
